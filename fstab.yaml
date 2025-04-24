@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "http://68.154.88.193:4502/bin/franklin.delivery/gargadobe/ams-xwalk/main"
+    url: "https://author-zubin-test-sp-dev.adobecemcloud-stage.net/bin/franklin.delivery/gargadobe/ams-xwalk/main"
     type: "markup"
     suffix: ".html"
