@@ -4,7 +4,7 @@
             "title": "Form Fragment",
             "id": "form-fragment",
             "plugins": {
-                "xwalk": {
+                "xwalk65": {
                     "page": {
                         "resourceType": "core/fd/components/form/fragment/v1/fragment",
                         "template": {

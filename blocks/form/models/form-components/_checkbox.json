@@ -4,7 +4,7 @@
             "title": "Checkbox",
             "id": "checkbox",
             "plugins": {
-                "xwalk": {
+                "xwalk65": {
                     "page": {
                         "resourceType": "core/fd/components/form/checkbox/v1/checkbox",
                         "template": {

@@ -4,7 +4,7 @@
             "title": "Panel",
             "id": "panel",
             "plugins": {
-                "xwalk": {
+                "xwalk65": {
                     "page": {
                         "resourceType": "core/fd/components/form/panelcontainer/v1/panelcontainer",
                         "template": {

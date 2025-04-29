@@ -4,7 +4,7 @@
       "title": "Button",
       "id": "form-button",
       "plugins": {
-        "xwalk": {
+        "xwalk65": {
           "page": {
             "resourceType": "core/fd/components/form/button/v1/button",
             "template": {

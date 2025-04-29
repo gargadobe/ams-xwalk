@@ -4,7 +4,7 @@
       "title": "Text",
       "id": "text",
       "plugins": {
-        "xwalk": {
+        "xwalk65": {
           "page": {
             "resourceType": "core/franklin/components/text/v1/text",
             "template": {}

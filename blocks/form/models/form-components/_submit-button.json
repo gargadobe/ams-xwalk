@@ -4,7 +4,7 @@
       "title": "Submit",
       "id": "form-submit-button",
       "plugins": {
-        "xwalk": {
+        "xwalk65": {
           "page": {
             "resourceType": "core/fd/components/form/actions/submit/v1/submit",
             "template": {

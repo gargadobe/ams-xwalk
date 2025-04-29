@@ -4,7 +4,7 @@
       "title": "Image",
       "id": "image",
       "plugins": {
-        "xwalk": {
+        "xwalk65": {
           "page": {
             "resourceType": "core/franklin/components/image/v1/image",
             "template": {}

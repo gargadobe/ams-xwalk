@@ -4,7 +4,7 @@
       "title": "Columns",
       "id": "columns",
       "plugins": {
-        "xwalk": {
+        "xwalk65": {
           "page": {
             "resourceType": "core/franklin/components/columns/v1/columns",
             "template": {

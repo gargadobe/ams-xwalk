@@ -4,7 +4,7 @@
             "title": "Email",
             "id": "email",
             "plugins": {
-                "xwalk": {
+                "xwalk65": {
                     "page": {
                         "resourceType": "core/fd/components/form/emailinput/v1/emailinput",
                         "template": {

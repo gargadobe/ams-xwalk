@@ -4,7 +4,7 @@
       "title": "Reset",
       "id": "form-reset-button",
       "plugins": {
-        "xwalk": {
+        "xwalk65": {
           "page": {
             "resourceType": "core/fd/components/form/actions/reset/v1/reset",
             "template": {

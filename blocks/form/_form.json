@@ -4,7 +4,7 @@
       "title": "Adaptive Form",
       "id": "form",
       "plugins": {
-        "xwalk": {
+        "xwalk65": {
           "page": {
             "resourceType": "fd/franklin/components/form/v1/form",
             "template": {

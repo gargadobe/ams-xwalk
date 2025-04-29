@@ -4,7 +4,7 @@
       "title": "Title",
       "id": "title",
       "plugins": {
-        "xwalk": {
+        "xwalk65": {
           "page": {
             "resourceType": "core/franklin/components/title/v1/title",
             "template": {

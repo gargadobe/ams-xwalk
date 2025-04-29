@@ -4,7 +4,7 @@
       "title": "Section",
       "id": "section",
       "plugins": {
-        "xwalk": {
+        "xwalk65": {
           "page": {
             "resourceType": "core/franklin/components/section/v1/section",
             "template": {

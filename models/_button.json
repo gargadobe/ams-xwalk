@@ -4,7 +4,7 @@
       "title": "Button",
       "id": "button",
       "plugins": {
-        "xwalk": {
+        "xwalk65": {
           "page": {
             "resourceType": "core/franklin/components/button/v1/button",
             "template": {

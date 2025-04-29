@@ -4,7 +4,7 @@
             "title": "Date Input",
             "id": "date-input",
             "plugins": {
-                "xwalk": {
+                "xwalk65": {
                     "page": {
                         "resourceType": "core/fd/components/form/datepicker/v1/datepicker",
                         "template": {

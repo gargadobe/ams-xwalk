@@ -4,7 +4,7 @@
       "title": "Text",
       "id": "plain-text",
       "plugins": {
-        "xwalk": {
+        "xwalk65": {
           "page": {
             "resourceType": "core/fd/components/form/text/v1/text",
             "template": {

@@ -4,7 +4,7 @@
       "title": "Dropdown List",
       "id": "drop-down",
       "plugins": {
-        "xwalk": {
+        "xwalk65": {
           "page": {
             "resourceType": "core/fd/components/form/dropdown/v1/dropdown",
             "template": {
