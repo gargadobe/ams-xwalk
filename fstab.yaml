@@ -2,4 +2,4 @@ mountpoints:
   /:
     url: "https://author-zubin-test-sp-dev.adobecemcloud-stage.net/bin/franklin.delivery/gargadobe/ams-xwalk/main"
     type: "markup"
-    suffix: ".html" 
+    suffix: ".html"
