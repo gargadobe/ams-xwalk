@@ -369,4 +369,4 @@ function enableRuleEditorExtension() {
   console.log('Adding meta tag for rule editor extension: ', meta.content);
   head.appendChild(meta);
 }
-//enableRuleEditorExtension();
+enableRuleEditorExtension();
