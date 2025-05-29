@@ -361,7 +361,7 @@ function enableRuleEditorExtension() {
   //const version = params.get('livecycle-ruleeditor-ui-service_version');
   //const domain = params.get('livecycle-ruleeditor-ui-service_domain') || 'https://experience.adobe.com';
   const domain = 'https://experience-qa.adobe.com';
-  const version = 'PR-191-bdc6b6388cd9c89a877de5d5d2c6ac85f7132c07';
+  const version = 'PR-191-d46909b56e951da9b8ea04cf484075ba11e7c246';
   if (version) {
     meta.content = `${domain}/solutions/livecycle-ruleeditor-ui-service/static-assets/resources/universal_editor.html?livecycle-ruleeditor-ui-service_version=${version}`;
   } else {
