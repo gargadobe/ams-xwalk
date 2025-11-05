@@ -2628,11 +2628,11 @@
               },
               {
                 "name": "$1,234.21",
-                "value": "¤#,##0.00"
+                "value": "?#,##0.00"
               },
               {
                 "name": "$1234.21",
-                "value": "¤####0.00"
+                "value": "?####0.00"
               },
               {
                 "name": "1,234.210",
@@ -5031,6 +5031,32 @@
         "name": "text",
         "value": "",
         "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "modal",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "triggerText",
+        "label": "Trigger Button Text",
+        "value": "Open Modal"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "modalTitle",
+        "label": "Modal Title",
+        "value": ""
+      },
+      {
+        "component": "richtext",
+        "name": "modalContent",
+        "value": "",
+        "label": "Modal Content",
         "valueType": "string"
       }
     ]
