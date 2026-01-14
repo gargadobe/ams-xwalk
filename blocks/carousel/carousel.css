@@ -1,0 +1,173 @@
+.carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+}
+
+.carousel-slides {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  --current-slide: 0;
+  transform: translateX(calc(-100% * var(--current-slide)));
+}
+
+.carousel-slide {
+  min-width: 100%;
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.carousel-slide.active {
+  display: flex;
+  flex-direction: column;
+  opacity: 1;
+}
+
+.carousel-slide-image {
+  width: 100%;
+  line-height: 0;
+}
+
+.carousel-slide-image img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.carousel-slide-content {
+  padding: 24px;
+  background-color: var(--background-color);
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.9);
+  border: none;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 2;
+  transition: background-color 0.2s ease, opacity 0.2s ease;
+  color: #333;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.carousel-button:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.carousel-button:active {
+  transform: translateY(-50%) scale(0.95);
+}
+
+.carousel-button-prev {
+  left: 16px;
+}
+
+.carousel-button-next {
+  right: 16px;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 2;
+}
+
+.carousel-indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.carousel-indicator:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.carousel-indicator.active {
+  background-color: rgba(255, 255, 255, 1);
+  border-color: rgba(255, 255, 255, 1);
+}
+
+/* Hide buttons on single slide */
+.carousel:has(.carousel-slide:only-child) .carousel-button,
+.carousel:has(.carousel-slide:only-child) .carousel-indicators {
+  display: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .carousel-button {
+    width: 40px;
+    height: 40px;
+  }
+
+  .carousel-button-prev {
+    left: 8px;
+  }
+
+  .carousel-button-next {
+    right: 8px;
+  }
+
+  .carousel-indicators {
+    bottom: 16px;
+  }
+
+  .carousel-slide-content {
+    padding: 16px;
+  }
+}
+
+/* Accessibility improvements */
+.carousel-button:focus,
+.carousel-indicator:focus {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+.carousel:focus {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  .carousel-slides {
+    transition: none;
+  }
+
+  .carousel-slide {
+    transition: none;
+  }
+
+  .carousel-button {
+    transition: none;
+  }
+
+  .carousel-indicator {
+    transition: none;
+  }
+}
